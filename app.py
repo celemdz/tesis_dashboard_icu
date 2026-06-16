@@ -2,10 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Configuración de página ancha (estilo Dashboard industrial según Jebraeily et al.)
+# Configuración de página ancha (estilo Dashboard)
 st.set_page_config(layout="wide")
 
-# TÍTULO PRINCIPAL (Siguiendo la lógica del paper de Urmia)
+# TÍTULO PRINCIPAL (Siguiendo la lógica del paper)
 st.title("PROYECTO INTEGRADOR: Dashboard Clínico - Unidad de Cuidados Intensivos")
 st.markdown("Dashboard Clínico para el Monitoreo de KPIs en la UTI a partir de database de MIMIC-IV")
 st.markdown("---")
@@ -67,7 +67,7 @@ with col_grafico2:
 
 st.markdown("---")
 
-# 🔍 NUEVA SECCIÓN ADAPTADA DEL PAPER (Demografía y Gravedad)
+#  NUEVA SECCIÓN ADAPTADA DEL PAPER (Demografía y Gravedad)
 st.header("Análisis Demográfico y de Calidad Asistencial")
 col_abajo1, col_abajo2 = st.columns(2)
 
